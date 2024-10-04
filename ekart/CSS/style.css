@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    height: 55vh;
+    width: 75vh;
+    align-items: center;
+}
+.HAT{
+    box-shadow: 10px 10px 30px grey; 
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    width: 150vh;
+}
+button{
+    background-color: orange;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    animation:  animateBg 25s linear infinite;
+    box-shadow: 5px 5px 20px black;
+}
+.bac{ 
+    background-color:whitesmoke;
+    border-radius: 12px;
+}
+img{
+    height: 15vh;
+    width: 20vh;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 20px gray;
+    background-color: rgb(248, 201, 201);
+    font-size: 15vh;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px black;
+    cursor:pointer;
+    animation: animateBg 10s linear infinite;
+}
+@keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+body{
+    background-color: blanchedalmond;
+}
+img{
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px gainsboro;
+    scroll-behavior:auto ;
+}
